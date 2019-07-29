@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({src, alt, header, content}) => {
+export default({src, alt, header, content}) => {
   return (<a className="ui card" href="/">
     <div className="image">
       <img src={src} alt={alt}/>
@@ -11,5 +11,3 @@ const Card = ({src, alt, header, content}) => {
     </div>
   </a>);
 };
-
-export default Card;
